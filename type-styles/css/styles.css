@@ -1,0 +1,103 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(250, 254, 255);
+}
+body {
+    margin: 5%;
+}
+h3 {
+    font-size: 35pt;
+    text-align: center;
+    line-height: 0.01;
+    text-transform: normal;
+    color: darkblue;
+}
+h1 {
+    font-size: 23pt;
+    margin: 2rem 0;
+    color: darkblue;
+}
+h2 {
+    font-size: 19pt;
+    font-weight: 700;
+    color: darkblue;
+}
+p {
+    font-size: 16pt;
+    color: rgb(140, 154, 223);
+    text-indent: 2.5rem;
+}
+h4 {
+    font-size: 18pt;
+    color: rgb(84, 100, 184);
+    text-indent: 1.5rem;
+    line-height: 0.1;
+    font-weight: 530;
+}
+article {
+    margin: 6rem 0;
+}
+section {
+    margin: 3.7em 0;
+}
+h5 {
+    text-indent: 1.5rem;
+    font-size: 11.5pt;
+    font-weight: 530;
+    color: rgb(84, 100, 184);
+}
+.bold {
+    font-weight: bold;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.light {
+    font-weight: lighter;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.medium {
+    font-weight: 600;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.italic {
+    font-style: italic;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.wide {
+    letter-spacing: 0.5em;
+    font-size: 16t;
+    text-indent: 2.5rem;
+}
+.tight {
+    letter-spacing: -0.05em;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.lowercase {
+    text-transform: lowercase;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.capitalize {
+    text-transform: capitalize;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.underline {
+    text-decoration: underline;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}
+.line-through {
+    text-decoration: line-through;
+    font-size: 16pt;
+    text-indent: 2.5rem;
+}

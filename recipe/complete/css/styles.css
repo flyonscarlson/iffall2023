@@ -1,0 +1,60 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(231, 244, 229);
+}
+body {
+}
+h1 {
+    font-size: 35pt;
+    color: rgb(167, 38, 81);
+    float: right;
+}
+h4 {
+    font-size: 14pt;
+    color: rgb(199, 89, 125);
+    background-color: white;
+    padding: 1rem;
+    width: 35rem;
+    float: right;
+    margin-left: -5rem;
+
+}
+h2 {
+    font-size: 20pt;
+    color: rgb(167, 38, 81);
+    clear: both;
+}
+h3 {
+    font-size: 15pt;
+    color: rgb(199, 89, 125);
+}
+p, li {
+    font-size: 12pt;
+    color: rgb(208, 123, 151);
+    font-weight: 600;
+}
+section {
+}
+a {
+    color:rgb(199, 89, 125)
+}
+.source {
+    color:rgb(208, 123, 151);
+    font-size: 12pt;
+    font-weight: 600;
+    float: right;
+}
+.header-image {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-left: 1rem;
+    margin-top: 1rem; 
+}
+.header-image-box li {
+    display: grid
+}
+.title-items-box li {
+    display: grid;
+}

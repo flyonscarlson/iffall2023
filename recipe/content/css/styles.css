@@ -1,0 +1,52 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(231, 244, 229);
+}
+body {
+    margin: 7%;
+}
+h1 {
+    margin-top: -3%;
+    font-size: 35pt;
+    text-align: center;
+    color: rgb(167, 38, 81);
+    margin-bottom: -1%;
+}
+h4 {
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 14pt;
+    color: rgb(199, 89, 125);
+    margin-top: 3%;
+}
+h2 {
+    font-size: 20pt;
+    color: rgb(167, 38, 81);
+}
+h3 {
+    margin-left: 5%;
+    font-size: 15pt;
+    color: rgb(199, 89, 125);
+}
+p, li {
+    font-size: 12pt;
+    margin-left: 8%;
+    color: rgb(208, 123, 151);
+    font-weight: 600;
+    margin-right: 8%;
+    line-height: 1.7em;
+    margin-bottom: 1%;
+}
+section {
+    margin-bottom: 5%;
+}
+a {
+    color:rgb(199, 89, 125)
+}
+.source {
+    color:rgb(208, 123, 151);
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 600;
+    margin-top: 1.6%;
+}

@@ -1,0 +1,164 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header {
+    color: white;
+    background-image: url(../images/magenta_mushrooms.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.intro_text {
+    padding-bottom: 48px;
+    background-color: rgb(194, 144, 171);
+}
+.grid_section {
+    padding-bottom: 50px;
+    background-color: rgb(234, 211, 223);
+}
+.last_section {
+    padding-bottom: 85px;
+    background-color: rgb(194, 144, 171);
+}
+footer {
+    background-color: rgb(234, 211, 223);
+    padding-top: 41px;
+    padding-bottom: 23px;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+h1 {
+    font-size: 80px;
+    color:rgb(237, 210, 233);
+}
+h2 {
+    font-size: 30px;
+    margin-top: -3px;
+    color:rgb(237, 210, 233);
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 31px;
+    color:rgb(67, 21, 63);
+}
+h4 {
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    color:rgb(67, 21, 63);
+}
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 15.5px;
+    color:rgb(67, 21, 63);
+}
+em {
+    font-style: italic;
+}
+.column_container {
+    width: 960px;
+    margin: auto;
+}
+section .column_container {
+    padding-top: 38px;
+}
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 185px;
+}
+.bodyimage {
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 38px;
+    margin-bottom: 16px;
+    max-width: 400px;
+    max-height: 300px;
+    float: right;
+}
+.grid_section img {
+    width: 200px;
+    height: 150px;
+}
+.list_component {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.grid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 61px;
+}
+list_component {
+    margin: 0;
+    list-style: none;
+}
+.grid_text {
+    /* max-width: 247px;
+    padding-left: 12px;
+    margin-right: 21px; */
+    display: block;
+    width: 430px;
+    margin-left: -11px;
+}
+li.list_component>img{
+    width:200px;
+    height:150px;
+    float:left;
+    margin: 16px 12px 0px -40px;
+}
+.last_section_body {
+    margin-top: -1px;
+    margin-left: 129px;
+    margin-right: 129px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 36px;
+    text-align: center;
+}
+/* section {
+    background-color: rgba(0, 0, 255, 0.2);
+    display: none;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+    color: blue;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    object-fit: cover;
+    padding-bottom: 16px;
+}
+.column_container {
+    width: 960px;
+    margin: auto;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 185px;
+} */

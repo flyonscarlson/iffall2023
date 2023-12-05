@@ -1,0 +1,462 @@
+html {
+    background-color: white;
+    font-family: 'Old Standard TT', serif;
+    color: black;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------HOME PAGE---------------------- */
+/* -------------Navigation Bar------------- */
+.navBar {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 12px;
+    z-index: 1100;
+}
+.navBar a {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    float: left;
+    display: block;
+    color: black;
+    padding: 14 14 14 14;
+    text-decoration: none;
+    font-size: 17pt;
+}
+.homeButton {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    margin-top: -9px;
+}
+/* -------------Landing Top------------- */
+.headerImage {
+    margin-left: auto;
+    margin-right: 0;
+    width: 33.3%;
+    height: auto;
+    margin-top: -45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+header > .homepage {
+    margin-top: -21.6%;
+    font-family: 'Amiko', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+h1 .chanelBrandHeader {
+    width: 65%;
+    margin-top: -5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerArrow {
+    display: block;
+    width: 4%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.6%;
+}
+/* -------------Landing Bottom (Grid)------------- */
+.homeBodyLinks  {
+    box-sizing: border-box;
+    max-width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 27px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 0 0 0;
+    grid-template-rows: repeat(2, 1fr);
+}
+.homeBodyLinks > div {
+    border: 1px solid black;
+    padding: 0;
+    position: relative;
+    height: 440px;
+}
+.homeBodyLinks > div > span {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 0.9;
+}
+.homeBodyLinks > div > a {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 370;
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 0.9;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 15;
+    padding-right: 15;
+    padding-bottom: 10;
+    padding-left: 15;
+}
+.homeBodyLinks img {
+    width: 100%;
+    height: 440px;
+    display: block;
+    object-fit: cover;
+}
+.homeLinkHistory {
+    grid-column: 1;
+    grid-row: 1;
+}
+.homeLinkCorporateIdentity {
+    grid-column: 2;
+    grid-row: 1;
+}
+.homeLinkCocoChanel {
+    grid-column: 2;
+    grid-row: 2;
+}
+.homeLinkCocoChanel > img {
+    object-position: left;
+}
+.homeLinkProducts {
+    grid-column: 3;
+    grid-row: 2;
+}
+/* -------------Footer------------- */
+footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer > p {
+    font-size: 12.5px;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 0px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: rgb(201, 169, 169);
+}
+/* -------------Responsive Design------------- */
+/* @media (max-width: 1000px) {
+    .navBar a {
+        text-align: right;
+        padding: 5px;
+        font-size: 10pt;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-right: 35px;
+    }
+    .navBar {
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-top: 13px;
+    }
+    .homeButton {
+        width: auto;
+        height: 30px;
+        object-fit: cover;
+        margin-top: -9px;
+        padding-left: 10px;
+        padding-bottom: 4px;
+    }
+    .headerImage {
+        margin-top: 56px;
+    }
+} */
+/* @media (max-width: 1722px) {
+    .navBar a {
+        font-size: 17px;
+        margin-right: 5px;
+    }
+    .navBar {
+
+    }
+}
+@media (max-width: 647px) {
+
+} */
+@media (max-width: 800px) {
+    .navBar a {
+        font-size: 14px;
+        padding: 1.1vw;
+        margin-top: 5px;
+    }
+    .navBar {
+        padding-bottom: 5px;
+    }
+    .homeButton {
+        height: 30px;
+    }
+    header > h1 {
+        font-size: 20px;
+    }
+}
+/* ---------------CORPORATE IDENTITY PAGE------------- */
+/* ------------- Header ------------- */
+body .corporateIdentity {
+    margin: 0;
+    padding: 0;
+}
+.corporateIdentity h1 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 80%;
+}
+.chanelLogo {
+    width: auto;
+    height: 73px;
+    object-fit: cover;
+    margin-top: -9px;
+}
+header {
+    margin-top: 106px;
+    margin-bottom: auto;
+}
+header .corporateIdentity {
+    margin-top: 140px;
+}
+/* ------------- Body Text ------------- */
+.column-container {
+    width: 90%;
+}
+.corporateIdentityBodyImage {
+    width: 430px;
+    height: auto;
+}
+.bodyText {
+    display: block;
+    padding-top: 3%;
+}
+.bodyParagraphs {
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    column-gap: 50px;
+    width: 60%;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 0;
+}
+/* ------------- Body Image ------------- */
+.corporateIdentityBodyImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 40%;
+    object-fit: cover;
+    object-position: top center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/* ---------------HISTORY PAGE------------- */
+/* ------------- Header ------------- */
+.history h1 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 80%;
+}
+h2 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-top: 0;
+}
+header .history {
+    margin-top: 140px;
+}
+.column-container {
+    width: 90%;
+}
+.bodyText {
+    display: block;
+    padding-top: 3%;
+}
+.bodyParagraphs {
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    column-gap: 50px;
+    width: 60%;
+    text-align: left;
+}
+.bodyParagraphs > img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.bodyParagraph {
+    padding-bottom: 8px;
+}
+.bodyContent {
+    margin-bottom: 50px;
+}
+/* ---------------COCO CHANEL PAGE------------- */
+/* ------------- Header ------------- */
+.cocoChanel h1 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 80%;
+}
+body .cocoChanel {
+    margin: 0;
+    padding: 0;
+}
+header .cocoChanel {
+    margin-top: 140px;
+}
+/* ------------- Body Text ------------- */
+.bodyText {
+    display: block;
+    padding-top: 3%;
+}
+.bodyParagraphs {
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    column-gap: 50px;
+    width: 60%;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 0;
+}
+/* ------------- Body Image ------------- */
+.cocoChanelBodyImage {
+    width: 60%;
+    height: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+    object-position: top center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/* ---------------PRODUCTS PAGE------------- */
+/* ------------- Header ------------- */
+header .products {
+    margin-top: 140px;
+}
+.products h1 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 80%;
+}
+.productTitle {
+    font-family: 'Amiko', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-top: 0;
+}
+/* ------------- Product Grid ------------- */
+.productGrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 90%;
+}
+.productImages {
+    object-fit: cover;
+    width: 90%;
+    height: 430px;
+    object-position: top center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.productBody {
+    width: 90%;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.productGrid div {
+    width: 30%;
+    margin-bottom: 3%;
+}
+.jewelry img {
+    object-position: left;
+}
+/* ------------- Buttons ------------- */
+.homeBodyLinks a:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    transition: transform 0.5s;
+    background-color: 0.1s;
+}
+.homeBodyLinks a:active {
+    background-color: rgb(201, 201, 201);
+    transition: color 0.2s;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.navBar a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+.navBar a:active {
+    color: grey;
+    text-decoration: underline;
+}
+.homeBodyLinks a.active-page {
+}
